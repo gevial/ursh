@@ -16,7 +16,6 @@ type Config struct {
 		Password string
 	}
 	ExpireTime int `yaml:"expire_time"`
-	MaxPerUser int `yaml:"max_per_user"`
 	UIPort     int
 }
 
